@@ -2,7 +2,7 @@ package wxh
 
 /**
   * ClassName: ConditionTest
-  * Description:赋值运算符
+  * Description:条件语句
   * Author wxh
   * Date: 2020/6/19 15:04
   * Version V1.0.0
