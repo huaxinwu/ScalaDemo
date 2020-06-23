@@ -10,9 +10,19 @@ package wxh
   */
 object LoopTest {
   def main(args: Array[String]): Unit = {
-    val a = 10
-    while(true){
-      println( "a 的值为 : " + a)
+    var a = 10
+    while(a < 20){
+      println( "Value of a: " + a)
+      a = a + 1
+    }
+
+    do{
+      println("Value of a: " + a)
+      a = a + 1
+    }while ( a < 20)
+
+    for(a <- 1 to 10){
+      println("Value of a: " + a)
     }
   }
 }
