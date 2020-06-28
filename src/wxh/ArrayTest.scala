@@ -21,5 +21,21 @@ object ArrayTest {
       total += myArray(i);
     }
     println("数组总和："+total)
+
+    var myMatrix = Array.ofDim[Int](3,3)
+    // 创建矩阵
+    for(i <- 0 to 2){
+      for(j <- 0 to 2){
+        myMatrix(i)(j) = j
+      }
+      // 打印二维数组
+      for(i <- 0 to 2){
+        for(j <- 0 to 2){
+          println(" "+myMatrix(i)(j))
+        }
+        // 换行
+        println()
+      }
+    }
   }
 }
